@@ -1,0 +1,9 @@
+FrictionOnRoad = 0.01
+
+FrictionOffRoad = 0.04
+Acceleration = 0.07
+Brake = 0.15
+
+TurnRate = 0.055
+RoadWidth = 50
+DrawTrees = True
