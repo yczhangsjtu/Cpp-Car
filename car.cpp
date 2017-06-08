@@ -643,8 +643,8 @@ int main(int argc, char *argv[])
     glutPassiveMotionFunc(handlePassiveMouseMoveEvent);
     glutKeyboardFunc(handleKeyEvent);
     glutKeyboardUpFunc(handleKeyUpEvent);
-	glutSpecialFunc(special);
-	glutSpecialUpFunc(specialUp);
+		glutSpecialFunc(special);
+		glutSpecialUpFunc(specialUp);
     glutIdleFunc(idle);
     glutMainLoop();
     return 0;

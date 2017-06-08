@@ -160,7 +160,7 @@ void displayRoutine()
 
 void advanceTimer()
 {
-	timepassed += (clock() - timer)/1000;
+	timepassed += (clock() - timer)/100;
 	timer = clock();
 }
 
